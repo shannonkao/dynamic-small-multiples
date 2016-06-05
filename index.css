@@ -1,0 +1,164 @@
+body, html {
+  font: 10px sans-serif;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-top: 22px;
+  margin-bottom: 15px;
+  font-size: 25px
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+.area {
+  fill: #e3ebf4;
+  stroke-width: 0;
+  opacity: 0.6;
+}
+
+
+#container, #multiples {
+  width: 600px;
+  white-space: normal;
+}
+#container {
+    position: absolute;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}
+#multiples {
+    position: absolute;
+    top: 67px;
+    left: 635px;
+}
+.cliprect {
+    fill: white;
+}
+  
+.copy {
+    width: 260px;
+    height: 200px;
+    float: left;
+    white-space: normal;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 0px 5px 10px 5px;
+    font: 25px sans-serif;
+    padding: 3px;
+    background: white;
+}
+.multipleSelected {
+    background: #f3f3f3;
+}
+
+
+.deleteMultiple {
+    font: 12px sans-serif;
+    height: 14px;
+    width: 14px;
+    position: relative;
+    top: -203px;
+    left: 242px;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .25;
+  shape-rendering: crispEdges;
+}
+
+.extent {
+  fill: #314159;
+}
+
+.multipleRect {
+  fill-opacity: .065;
+  shape-rendering: crispEdges;   
+}
+
+
+rect.pane {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
+
+
+#multiple {
+    margin-bottom: 10px;
+    list-style-type: none; 
+    position: absolute;
+    top: 25px;
+    left: 500px;
+}
+#clear {
+    margin-bottom: 10px;
+    list-style-type: none; 
+    position: absolute;
+    top: 25px;
+    left: 1115px;
+}
+
+#repeatSlider, #repeatBeforeSlider{
+    width: 240px;
+    display:inline-block;
+    position: relative;
+}
+#repeatLabel{
+    font: 14px sans-serif;
+    width: 133px;
+    display:inline-block;
+    text-align:center;
+    left: 10px;
+}
+#repeat{
+    width: 625px;
+    position: relative;
+    top: 640px;
+}
+
+
+
+#spacingSlider{
+    width: 501px;
+    display:inline-block;
+}
+#spacingLabel{
+    font: 14px sans-serif;
+    width: 120px;
+    display:inline-block;
+}
+#spacing{
+    width: 625px;
+    position: relative;
+    top: 650px;
+}
+
+
+.tooltip circle {
+  fill: none;
+  stroke: steelblue;
+}
+
+
